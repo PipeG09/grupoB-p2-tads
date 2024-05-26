@@ -21,6 +21,7 @@ public class ListImpl<T> implements List<T> {
     public Node<T> getFirst() {
         return first;
     }
+
     @Override
     public Node<T> getLast() {
         return last;

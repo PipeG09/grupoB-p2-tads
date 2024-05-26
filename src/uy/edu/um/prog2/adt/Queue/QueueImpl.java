@@ -45,7 +45,6 @@ public class QueueImpl<T> implements Queue<T>{
         return list.contains(value);
     }
 
-
     @Override
     public int size() {
         return list.size();

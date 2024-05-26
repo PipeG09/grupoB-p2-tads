@@ -1,6 +1,7 @@
 package uy.edu.um.prog2.adt.Node;
 
 public class Node<T> {
+
     private T value;
 
     private Node<T> next;

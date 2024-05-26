@@ -12,7 +12,6 @@ public class StackImpl<T> implements Stack<T> {
 
     private int top;
 
-
     public StackImpl(int size) {
         this.list = new ListImpl<>();
         this.size = size;
