@@ -4,7 +4,7 @@ import uy.edu.um.prog2.adt.List.IllegalIndexException;
 import uy.edu.um.prog2.adt.List.List;
 import uy.edu.um.prog2.adt.List.ListImpl;
 
-public class QueueImpl<T extends Comparable<T>> implements Queue<T>{
+public class QueueImpl<T> implements Queue<T>{
 
     private final List<T> list;
 

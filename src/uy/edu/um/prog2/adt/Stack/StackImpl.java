@@ -4,7 +4,7 @@ import uy.edu.um.prog2.adt.List.IllegalIndexException;
 import uy.edu.um.prog2.adt.List.ListImpl;
 
 
-public class StackImpl<T extends Comparable<T>> implements Stack<T> {
+public class StackImpl<T> implements Stack<T> {
 
     private final ListImpl<T> list;
 

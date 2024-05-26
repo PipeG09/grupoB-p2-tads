@@ -1,6 +1,6 @@
 package uy.edu.um.prog2.adt.Stack;
 
-public interface Stack<T extends Comparable<T>> {
+public interface Stack<T> {
 
     void push(T value) throws FullStackException;
 
